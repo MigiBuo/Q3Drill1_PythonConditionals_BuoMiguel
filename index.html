@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Compute Your Average</title>
+</head>
+<body>
+<center>
+    <h1>Compute Your Average</h1>
+    <br>
+    <label>Score No.1:</label>
+    <input type="text" id="score1" placeholder="Enter your 1st score">
+    <br><br>
+    <label>Score No.2:</label>
+    <input type="text" id="score2" placeholder="Enter your 2nd score">
+    <br>
+    <button type="submit" py-click="compute_ave">Compute</button>
+
+    <p>Average<span id="ave"></span></p>
+    <p>Passed?<span id="result"></span></p>
+
+    <script type="py" src="main.py"></script>
+</center>
+</body>
+</html>
